@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-surface: #151515;
+    --secondary-surface: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+
+    --primary-text: #A2A2A2;
+    --secondary-text: #747474;
+
+    --button-primary: var(--primary-text);
+    --button-text: #000;
+}
+
+body {
+    background: var(--primary-surface);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 70px 0px 70px;
+}
+
+nav {
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+nav .placeholder {
+    background: var(--primary-text);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+nav a {
+    color: var(--primary-text);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 73px 200px 0px 200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 85px;
+    border-radius: 50px 50px 0px 0px;
+    border: 1px solid #252525;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+}
+
+section .cta {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+section .cta .headers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section .cta .headers h1 {
+    color: var(--primary-text);
+    text-align: center;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section .cta .headers .subtext {
+    color: var(--secondary-text);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section .cta .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section .cta .buttons .downloadbutton {
+    display: flex;
+    height: 50px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--primary-text);
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+section .cta .buttons .discord {
+    color: #A2A2A2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
