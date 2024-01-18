@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "client",
+    "productName": "retrobox",
     "version": "0.0.0"
   },
   "tauri": {
@@ -29,9 +29,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "client",
-        "width": 800,
-        "height": 600
+        "title": "retrobox",
+        "width": 1080,
+        "height": 720
       }
     ]
   },

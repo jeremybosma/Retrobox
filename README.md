@@ -7,13 +7,13 @@ Links for Windows, macOS & Linux will be added once released.
 
 # Features & Roadmap
 - [x] Website
-- [] Desktop Client
-  - [] Windows
-  - [] macOS
-  - [] Linux
-- [] Emulators
-    - [] Dolphin
-    - [] Ryujinx
+- [ ] Desktop Client
+  - [ ] Windows
+  - [ ] macOS
+  - [ ] Linux
+- [ ] Emulators
+    - [ ] Dolphin
+    - [ ] Ryujinx
 More detailed roadmap will be added soon.
 
 # Motivation
