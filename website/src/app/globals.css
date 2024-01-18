@@ -88,6 +88,7 @@ section .cta .headers h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 section .cta .headers .subtext {
@@ -96,6 +97,7 @@ section .cta .headers .subtext {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 section .cta .buttons {
@@ -129,4 +131,49 @@ section .cta .buttons .discord {
     font-weight: 500;
     line-height: normal;
     text-decoration-line: underline;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 30px 20px 0px 20px;
+    }
+
+    section {
+        padding: 73px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .placeholder {
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 73px 20px 0px 20px;
+    }
+
+    section .cta .headers h1 {
+        font-size: 48px;
+    }
+
+    section .cta .headers .subtext {
+        font-size: 18px;
+    }
+
+    section .cta .buttons .downloadbutton {
+        font-size: 16px;
+    }
+
+    section .cta .buttons .discord {
+        font-size: 16px;
+    }
 }
