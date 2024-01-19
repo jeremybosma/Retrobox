@@ -1,0 +1,12 @@
+.navbar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1vw;
+    gap: 1vw;
+    width: 85vw;
+    height: 5vh;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 1vh;
+}

@@ -1,7 +1,20 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
+.card_wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vh;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafb);
+.card {
+    background: #d7d7d7;
+    width: 15vw;
+    height: 35vh;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.card:active {
+    transform: scale(0.98);
 }
