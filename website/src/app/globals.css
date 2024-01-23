@@ -56,7 +56,7 @@ a:hover {
 section {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 73px 200px 0px 200px;
     flex-direction: column;
     justify-content: flex-start;
@@ -84,7 +84,7 @@ section .cta .headers {
 section .cta .headers h1 {
     color: var(--primary-text);
     text-align: center;
-    font-size: 76px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -93,7 +93,7 @@ section .cta .headers h1 {
 
 section .cta .headers .subtext {
     color: var(--secondary-text);
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -132,6 +132,15 @@ section .cta .buttons .discord {
     line-height: normal;
     text-decoration-line: underline;
 }
+
+.tv {
+    transition: 0.1s;
+}
+
+.tv:hover {
+    transform: scale(1.05);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     body {
@@ -144,11 +153,6 @@ section .cta .buttons .discord {
 }
 
 @media (max-width: 480px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     nav .placeholder {
         margin-bottom: 10px;
     }
