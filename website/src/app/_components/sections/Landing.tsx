@@ -38,6 +38,7 @@ export function LandingSection() {
                     alt="placeholder"
                     width={908}
                     height={483}
+                    priority
                 />
             </div>
         </section>
