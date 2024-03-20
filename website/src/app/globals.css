@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-    --primary-surface: #151515;
+    --primary-surface: #221F1C;
     --secondary-surface: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
 
     --primary-text: #A2A2A2;
     --secondary-text: #747474;
 
-    --button-primary: var(--primary-text);
+    --button-primary: #B6A98F;
     --button-text: #000;
 }
 
@@ -34,7 +34,7 @@ nav {
 }
 
 nav .placeholder {
-    background: var(--primary-text);
+    background: var(--button-primary);
     border-radius: 5px;
     width: 40px;
     height: 40px;
@@ -115,9 +115,9 @@ section .cta .buttons .downloadbutton {
     align-items: center;
     gap: 10px;
     border-radius: 10px;
-    background: var(--primary-text);
+    background: var(--button-primary);
 
-    color: #000;
+    color: var(--button-text);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;

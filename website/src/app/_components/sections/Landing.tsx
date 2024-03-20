@@ -28,7 +28,7 @@ export function LandingSection() {
                 </div>
 
                 <div className="buttons">
-                    <a className="downloadbutton" href="#">Download{operatingSystem && " for " + operatingSystem}</a>
+                    <a className="downloadbutton" href="https://github.com/jeremybosma/retrobox">Download{operatingSystem && " for " + operatingSystem}</a>
                     <a className="discord" href="#">Discord</a>
                 </div>
 
