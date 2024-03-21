@@ -4,7 +4,7 @@
 
 :root {
     --primary-surface: #221F1C;
-    --secondary-surface: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    --secondary-surface: linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
 
     --primary-text: #A2A2A2;
     --secondary-text: #747474;
@@ -64,7 +64,7 @@ section {
     gap: 85px;
     border-radius: 50px 50px 0px 0px;
     border: 1px solid #252525;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background: var(--secondary-surface);
 }
 
 section .cta {
